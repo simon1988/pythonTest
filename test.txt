@@ -1,0 +1,20 @@
+Fog index calculator, using your favorite programming language:
+ 
+Design and write an application that can parse a text file and produce a fog index score, and other statistics for the 
+
+document. A fog index is a readability score for a document. Using this "fog"  index, we can judge what reading material 
+
+is good for different ages of students. For the purposes of this exercise we will use a simplified fog index defined as 
+
+follows:
+ 
+Fog index = 0.4 * (words / sentence) + 100 (Complex Words / Words).
+ 
+Complex Words are words with more 5 or more letters and 2 or more vowels.
+ 
+The applications should report:
+ 
+The fog index.
+The total number of words and sentences in the document.
+The average number of words per sentence.
+The fog index per sentence.
